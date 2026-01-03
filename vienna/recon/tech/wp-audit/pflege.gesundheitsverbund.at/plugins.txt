@@ -1,0 +1,2 @@
+wp-content/plugins/doloops_solrsearch
+wp-content/plugins/maps-marker-pro

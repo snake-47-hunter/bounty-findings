@@ -1,0 +1,16 @@
+HTTP/1.1 403 
+Date: Sat, 03 Jan 2026 11:31:41 GMT
+Content-Type: text/html
+Content-Length: 146
+Connection: keep-alive
+Set-Cookie: stdpsessionpflegegesundheitsverbundat=ta4ONK7DpnT8qmD7XxNyoUrf8Fl4aYAyS1tVVEgV5lykxdfn; Path=/; Secure; HttpOnly; SameSite=None
+Set-Cookie: TS01bdedd1=01fcd8ee59981160b1b7e805f3e5d4b22657fdbe5a22e856359b1fb78ca7328a9c5af573de76f2eb5ee1d0a41cc4cbc2bed298536e; Path=/; Secure; HttpOnly; SameSite=Strict; 
+Strict-Transport-Security: max-age=31536000
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

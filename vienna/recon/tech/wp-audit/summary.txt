@@ -1,0 +1,75 @@
+[*] Starting WordPress passive audit...
+
+===============================
+[+] Target: blog.stadtentwicklung.wien.gv.at
+[-] Not WordPress or heavily protected
+
+===============================
+[+] Target: open.wien.at
+[-] Not WordPress or heavily protected
+
+===============================
+[+] Target: open.wien.gv.at
+[-] Not WordPress or heavily protected
+
+===============================
+[+] Target: digitales.wien.at
+[-] Not WordPress or heavily protected
+
+===============================
+[+] Target: digitales.wien.gv.at
+[+] WordPress detected
+[+] REST API checked
+[✓] Done: digitales.wien.gv.at
+
+===============================
+[+] Target: projektbau.gesundheitsverbund.at
+[-] Not WordPress or heavily protected
+
+===============================
+[+] Target: bauprojekte.gesundheitsverbund.at
+[+] WordPress detected
+[+] REST API checked
+[✓] Done: bauprojekte.gesundheitsverbund.at
+
+===============================
+[+] Target: bauprojekte.akhwien.at
+[+] WordPress detected
+[+] REST API checked
+[✓] Done: bauprojekte.akhwien.at
+
+===============================
+[+] Target: campus-donaustadt.gesundheitsverbund.at
+[+] WordPress detected
+[+] REST API checked
+[✓] Done: campus-donaustadt.gesundheitsverbund.at
+
+===============================
+[+] Target: campus-favoriten.gesundheitsverbund.at
+[+] WordPress detected
+[+] REST API checked
+[✓] Done: campus-favoriten.gesundheitsverbund.at
+
+===============================
+[+] Target: campus-floridotower.gesundheitsverbund.at
+[-] Not WordPress or heavily protected
+
+===============================
+[+] Target: pflege.gesundheitsverbund.at
+[+] WordPress detected
+[+] REST API checked
+[✓] Done: pflege.gesundheitsverbund.at
+
+===============================
+[+] Target: pflegewien.gesundheitsverbund.at
+[-] Not WordPress or heavily protected
+
+===============================
+[+] Target: wiengibtraum.wien.at
+[-] Not WordPress or heavily protected
+
+===============================
+[+] Target: wiengibtraum.wien.gv.at
+[-] Not WordPress or heavily protected
+
+[*] Audit completed.

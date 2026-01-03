@@ -1,0 +1,12 @@
+HTTP/2 405 
+date: Sat, 03 Jan 2026 11:30:04 GMT
+content-type: text/plain;charset=UTF-8
+content-length: 42
+set-cookie: stdpsessiondigitaleswiengvat=Pbmbcio0meKZczZsyfMRFiPKjpNUjTGqYSJspmA8hEB7CLJF; Path=/; Secure; HttpOnly; SameSite=None
+x-robots-tag: noindex, follow
+x-cached: Sat, 03 Jan 2026 11:30:04 GMT
+allow: POST
+set-cookie: TS0173f0a4=01fcd8ee595d1557dd2a4213f765996adb9aa9e6b6f38f9b8522680ec0584b9c41092745356b320b8f9af983807e0e6954e824ff40; Path=/; Secure; HttpOnly; SameSite=Strict; 
+strict-transport-security: max-age=31536000
+
+XML-RPC server accepts POST requests only.

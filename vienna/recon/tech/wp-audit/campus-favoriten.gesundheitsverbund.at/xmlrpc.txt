@@ -1,0 +1,16 @@
+HTTP/1.1 403 
+Date: Sat, 03 Jan 2026 11:31:23 GMT
+Content-Type: text/html
+Content-Length: 146
+Connection: keep-alive
+Set-Cookie: stdpsessioncampusfavoritengesundheitsverbundat=wavTCYOSTCcYeZJLj8oZj1pXTXl49KKey5lBETgRHqMHnu0Q; Path=/; Secure; HttpOnly; SameSite=None
+Set-Cookie: TS01146b58=01fcd8ee59aa93fc426a0d367f4b76020568869f2e03a6d24e28704f4bd9804f1651030d0e8964c1341345bbfb472f870681383784; Path=/; Secure; HttpOnly; SameSite=Strict; 
+Strict-Transport-Security: max-age=31536000
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

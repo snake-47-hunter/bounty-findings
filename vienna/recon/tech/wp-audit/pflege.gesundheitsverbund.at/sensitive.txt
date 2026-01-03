@@ -1,0 +1,4 @@
+debug.log => 404
+.env => 403
+.git/config => 403
+wp-config.php~ => 404

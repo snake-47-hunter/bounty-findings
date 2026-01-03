@@ -1,0 +1,16 @@
+HTTP/1.1 403 
+Date: Sat, 03 Jan 2026 11:30:23 GMT
+Content-Type: text/html
+Content-Length: 146
+Connection: keep-alive
+Set-Cookie: stdpsessionbauprojektegesundheitsverbundat=TfJ0SUbJ8fRxDo37EwdutZ39I0evAm4r0cRw9LW0VAb161p8; Path=/; Secure; HttpOnly; SameSite=None
+Set-Cookie: TS01c16e22=01fcd8ee5946bd46d05f487f1859ed35d4171a9d378537b65368dc76e1aa49c19490bf99a664dec82e071dd214415e64c89040fb87; Path=/; Secure; HttpOnly; SameSite=Strict; 
+Strict-Transport-Security: max-age=31536000
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

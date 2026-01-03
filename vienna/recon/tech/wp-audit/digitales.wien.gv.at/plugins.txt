@@ -1,0 +1,3 @@
+wp-content/plugins/formidable
+wp-content/plugins/formidable-bootstrap
+wp-content/plugins/sitepress-multilingual-cms

@@ -1,0 +1,16 @@
+HTTP/1.1 403 
+Date: Sat, 03 Jan 2026 11:31:05 GMT
+Content-Type: text/html
+Content-Length: 146
+Connection: keep-alive
+Set-Cookie: stdpsessioncampusdonaustadtgesundheitsverbundat=Mdhj8KqG2BgonHQFuMo5azWYBrmxJpQWUsFn88NLuBFD99Hm; Path=/; Secure; HttpOnly; SameSite=None
+Set-Cookie: TS014e1e4b=01fcd8ee592a0d5e5d0a760f0687db9a0c036b8e60f09c3a89b866131604ca37325e4047eee4682cdb96716222705a8888bf381fc5; Path=/; Secure; HttpOnly; SameSite=Strict; 
+Strict-Transport-Security: max-age=31536000
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
