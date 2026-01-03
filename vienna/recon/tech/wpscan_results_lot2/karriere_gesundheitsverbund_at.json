@@ -1,0 +1,209 @@
+{
+  "start_time": 1767438105,
+  "start_memory": 64565248,
+  "target_url": "https://karriere.gesundheitsverbund.at/",
+  "target_ip": "217.149.233.58",
+  "effective_url": "https://karriere.gesundheitsverbund.at/",
+  "interesting_findings": [
+    {
+      "url": "https://karriere.gesundheitsverbund.at/",
+      "to_s": "Headers",
+      "type": "headers",
+      "found_by": "Headers (Passive Detection)",
+      "confidence": 100,
+      "confirmed_by": {
+
+      },
+      "references": {
+
+      },
+      "interesting_entries": [
+        "Permissions-Policy: geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),payment=(),usb=(),fullscreen=(self)",
+        "X-FCGI-Cache: HIT",
+        "X-Cached: Sat, 03 Jan 2026 07:54:48 GMT",
+        "Referrer-Policy: strict-origin-when-cross-origin",
+        "X-Robots-Tag: all"
+      ]
+    },
+    {
+      "url": "https://karriere.gesundheitsverbund.at/xmlrpc.php",
+      "to_s": "XML-RPC seems to be enabled: https://karriere.gesundheitsverbund.at/xmlrpc.php",
+      "type": "xmlrpc",
+      "found_by": "Link Tag (Passive Detection)",
+      "confidence": 30,
+      "confirmed_by": {
+
+      },
+      "references": {
+        "url": [
+          "http://codex.wordpress.org/XML-RPC_Pingback_API"
+        ],
+        "metasploit": [
+          "auxiliary/scanner/http/wordpress_ghost_scanner",
+          "auxiliary/dos/http/wordpress_xmlrpc_dos",
+          "auxiliary/scanner/http/wordpress_xmlrpc_login",
+          "auxiliary/scanner/http/wordpress_pingback_access"
+        ]
+      },
+      "interesting_entries": [
+
+      ]
+    }
+  ],
+  "version": {
+    "number": "6.8.3",
+    "release_date": "2025-09-30",
+    "status": "outdated",
+    "found_by": "Emoji Settings (Passive Detection)",
+    "confidence": 100,
+    "interesting_entries": [
+      "https://karriere.gesundheitsverbund.at/, Match: 'wp-includes\\/js\\/wp-emoji-release.min.js?ver=6.8.3'"
+    ],
+    "confirmed_by": {
+      "Most Common Wp Includes Query Parameter In Homepage (Passive Detection)": {
+        "confidence": 40,
+        "interesting_entries": [
+          "https://karriere.gesundheitsverbund.at/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3"
+        ]
+      }
+    },
+    "vulnerabilities": [
+
+    ]
+  },
+  "main_theme": {
+    "slug": "doloops_enfold-kavchild",
+    "location": "https://karriere.gesundheitsverbund.at/wp-content/themes/doloops_enfold-kavchild/",
+    "latest_version": null,
+    "last_updated": null,
+    "outdated": false,
+    "readme_url": false,
+    "directory_listing": false,
+    "error_log_url": null,
+    "style_url": "https://karriere.gesundheitsverbund.at/wp-content/themes/doloops_enfold-kavchild/style.css?ver=7.1.2",
+    "style_name": "Enfold KAV Child",
+    "style_uri": null,
+    "description": "Enfold Child Theme - for Enfold 7.1.1",
+    "author": "doloops, netzgestaltung.at",
+    "author_uri": null,
+    "template": "enfold",
+    "license": "GNU General Public License v2 or later",
+    "license_uri": "http://www.gnu.org/licenses/gpl-2.0.html",
+    "tags": "light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready",
+    "text_domain": "enfold-child",
+    "found_by": "Css Style In Homepage (Passive Detection)",
+    "confidence": 100,
+    "interesting_entries": [
+
+    ],
+    "confirmed_by": {
+      "Css Style In 404 Page (Passive Detection)": {
+        "confidence": 70,
+        "interesting_entries": [
+
+        ]
+      }
+    },
+    "vulnerabilities": [
+
+    ],
+    "version": {
+      "number": "25.13-wpkav",
+      "confidence": 80,
+      "found_by": "Style (Passive Detection)",
+      "interesting_entries": [
+        "https://karriere.gesundheitsverbund.at/wp-content/themes/doloops_enfold-kavchild/style.css?ver=7.1.2, Match: 'Version:      25.13-wpkav'"
+      ],
+      "confirmed_by": {
+
+      }
+    },
+    "parents": [
+
+    ]
+  },
+  "plugins": {
+    "wordpress-seo-premium": {
+      "slug": "wordpress-seo-premium",
+      "location": "https://karriere.gesundheitsverbund.at/wp-content/plugins/wordpress-seo-premium/",
+      "latest_version": "26.6",
+      "last_updated": "2025-12-15T11:05:42.000Z",
+      "outdated": false,
+      "readme_url": null,
+      "directory_listing": null,
+      "error_log_url": null,
+      "found_by": "Comment (Passive Detection)",
+      "confidence": 30,
+      "interesting_entries": [
+
+      ],
+      "confirmed_by": {
+
+      },
+      "vulnerabilities": [
+        {
+          "title": "WordPress SEO by Yoast < 2.1 - Cross-Site Scripting (XSS)",
+          "fixed_in": "2.1",
+          "references": {
+            "url": [
+              "https://yoast.com/coordinated-security-release/",
+              "https://blog.sucuri.net/2015/04/security-advisory-xss-vulnerability-affecting-multiple-wordpress-plugins.html"
+            ],
+            "wpvulndb": [
+              "42d994ec-9da9-4dd6-9d44-347becaedb3a"
+            ]
+          }
+        },
+        {
+          "title": " Yoast SEO 1.2.0-11.5 - Authenticated Stored XSS",
+          "fixed_in": "11.6",
+          "references": {
+            "cve": [
+              "2019-13478"
+            ],
+            "url": [
+              "https://gist.github.com/sybrew/2f53625104ee013d2f599ac254f635ee",
+              "https://github.com/Yoast/wordpress-seo/pull/13221",
+              "https://yoast.com/yoast-seo-11.6/"
+            ],
+            "wpvulndb": [
+              "8bc4cf95-79f7-4d92-b320-a841ab7e6a6f"
+            ]
+          }
+        },
+        {
+          "title": "Yoast SEO Premium 25.7-25.9 - Authenticated (Contributor+) Stored Cross-Site Scripting",
+          "fixed_in": "26.0",
+          "references": {
+            "cve": [
+              "2025-11241"
+            ],
+            "url": [
+              "https://www.wordfence.com/threat-intel/vulnerabilities/id/a6e3645d-ed1b-4c51-a463-c2691cb7168d"
+            ],
+            "wpvulndb": [
+              "dc89f5b6-2745-45dc-b718-2049859f545a"
+            ]
+          }
+        }
+      ],
+      "version": null
+    }
+  },
+  "vuln_api": {
+    "plan": "free",
+    "requests_done_during_scan": 5,
+    "requests_remaining": 15
+  },
+  "stop_time": 1767438122,
+  "elapsed": 16,
+  "requests_done": 122,
+  "cached_requests": 8,
+  "data_sent": 64697,
+  "data_sent_humanised": "63.181 KB",
+  "data_received": 490251,
+  "data_received_humanised": "478.761 KB",
+  "used_memory": 285138944,
+  "used_memory_humanised": "271.93 MB",
+  "scan_aborted": "The number of themes detected reached the threshold of 20 which might indicate False Positive. It would be recommended to use the --exclude-content-based option to ignore the bad responses."
+}
