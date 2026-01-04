@@ -1,0 +1,9 @@
+EndPoint authentification :
+  /wp-login
+creds :
+  AccountA
+  Bug@2025
+Path Auth :
+  /wp-login.php
+Endpoint api :
+  wp-json/wp/v2/
