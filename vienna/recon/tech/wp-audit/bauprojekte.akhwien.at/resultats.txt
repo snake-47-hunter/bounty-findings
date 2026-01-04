@@ -7,3 +7,5 @@ Path Auth :
   /wp-login.php
 Endpoint api :
   wp-json/wp/v2/
+view info account :
+  /htmlgui?selectedTab=mobile_userinfo
