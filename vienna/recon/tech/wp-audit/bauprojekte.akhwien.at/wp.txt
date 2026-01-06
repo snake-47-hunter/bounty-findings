@@ -1,0 +1,169 @@
+GET /wp-admin/admin.php?page=polls/polls-logs.php HTTP/2
+
+Host: digitales.wien.gv.at
+
+Cookie: nmstat=20d992a2-1110-e23d-98ad-9153c5139439; stdpsessiondigitaleswiengvat=SplZVXtzRlkBY7ddo9gRwxcFFK1m0CWihJSkqvW11s4JVvKP; wordpress_logged_in_=dyn.wordpress%40wien.gv.at%7C1767829647%7Cduk3sLGFCx6DsTFrvPyzeXcK5HKtcM2h6coWnycojxO%7Cf0f15ba8bace0f3ca33d03b20123c4a8c1ce6d39903ee15b0580438eb34bcee0; wordpress_sec_=dyn.wordpress%40wien.gv.at%7C1767829647%7Cduk3sLGFCx6DsTFrvPyzeXcK5HKtcM2h6coWnycojxO%7C0a435149c336409b0b05ab765752e25a9aff36dc764a6dd3b601fd9505f7e151; wordpress_test_cookie=WP%20Cookie%20check; wp-wpml_current_admin_language_d41d8cd98f00b204e9800998ecf8427e=de; wp-wpml_current_language=de; wp-settings-time-23047=1767658136; TS0173f0a4=01fcd8ee59470e84133c83937dcd8088d648718bf5268d8191688dc39a83e5297ac25a8c3b6cad30a700121a2c97dad6f9f26ba35d
+
+Sec-Ch-Ua: "Chromium";v="143", "Not A(Brand";v="24"
+
+Sec-Ch-Ua-Mobile: ?0
+
+Sec-Ch-Ua-Platform: "Linux"
+
+Accept-Language: en-US,en;q=0.9
+
+Upgrade-Insecure-Requests: 1
+
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+
+Sec-Fetch-Site: none
+
+Sec-Fetch-Mode: navigate
+
+Sec-Fetch-User: ?1
+
+Sec-Fetch-Dest: document
+
+Accept-Encoding: gzip, deflate, br
+
+Priority: u=0, i
+
+HTTP/2 403 Forbidden
+
+Date: Tue, 06 Jan 2026 19:48:23 GMT
+
+Content-Type: text/html;charset=UTF-8
+
+Content-Length: 2531
+
+X-Cached: Tue, 06 Jan 2026 19:48:22 GMT
+
+Cache-Control: no-cache, must-revalidate, max-age=0, no-store, private
+
+Vary: Accept-Encoding
+
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+
+Strict-Transport-Security: max-age=31536000
+
+
+
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name='robots' content='max-image-preview:large, noindex, follow' />
+	<title>WordPress &rsaquo; Fehler</title>
+	<style type="text/css">
+		html {
+			background: #f1f1f1;
+		}
+		body {
+			background: #fff;
+			border: 1px solid #ccd0d4;
+			color: #444;
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+			margin: 2em auto;
+			padding: 1em 2em;
+			max-width: 700px;
+			-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+			box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+		}
+		h1 {
+			border-bottom: 1px solid #dadada;
+			clear: both;
+			color: #666;
+			font-size: 24px;
+			margin: 30px 0 0 0;
+			padding: 0;
+			padding-bottom: 7px;
+		}
+		#error-page {
+			margin-top: 50px;
+		}
+		#error-page p,
+		#error-page .wp-die-message {
+			font-size: 14px;
+			line-height: 1.5;
+			margin: 25px 0 20px;
+		}
+		#error-page code {
+			font-family: Consolas, Monaco, monospace;
+		}
+		ul li {
+			margin-bottom: 10px;
+			font-size: 14px ;
+		}
+		a {
+			color: #2271b1;
+		}
+		a:hover,
+		a:active {
+			color: #135e96;
+		}
+		a:focus {
+			color: #043959;
+			box-shadow: 0 0 0 2px #2271b1;
+			outline: 2px solid transparent;
+		}
+		.button {
+			background: #f3f5f6;
+			border: 1px solid #016087;
+			color: #016087;
+			display: inline-block;
+			text-decoration: none;
+			font-size: 13px;
+			line-height: 2;
+			height: 28px;
+			margin: 0;
+			padding: 0 10px 1px;
+			cursor: pointer;
+			-webkit-border-radius: 3px;
+			-webkit-appearance: none;
+			border-radius: 3px;
+			white-space: nowrap;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing:    border-box;
+			box-sizing:         border-box;
+
+			vertical-align: top;
+		}
+
+		.button.button-large {
+			line-height: 2.30769231;
+			min-height: 32px;
+			padding: 0 12px;
+		}
+
+		.button:hover,
+		.button:focus {
+			background: #f1f1f1;
+		}
+
+		.button:focus {
+			background: #f3f5f6;
+			border-color: #007cba;
+			-webkit-box-shadow: 0 0 0 1px #007cba;
+			box-shadow: 0 0 0 1px #007cba;
+			color: #016087;
+			outline: 2px solid transparent;
+			outline-offset: 0;
+		}
+
+		.button:active {
+			background: #f3f5f6;
+			border-color: #7e8993;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+
+			</style>
+</head>
+<body id="error-page">
+	<div class="wp-die-message">Du bist leider nicht berechtigt, auf diese Seite zuzugreifen.</div></body>
+</html>
+	
+
