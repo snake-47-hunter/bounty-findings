@@ -1,8 +1,7 @@
 #!/bin/bash
-WORDLIST="/home/kali/Desktop/wp-plugins.fuzz.txt" # Ta wordlist avec URLs complètes
+WORDLIST="/home/kali/Desktop/a.txt" #wp-plugins.fuzz.txt" # Ta wordlist avec URLs complètes
 PROXY="socks5h://127.0.0.1:9050"
 CONTROL_PORT=9051
-MAX_PER_IP=0
 # Changement d'IP via Tor
 change_ip() {
     printf "\r[*] Changement d'IP via Tor... "
@@ -21,23 +20,22 @@ while IFS= read -r FULL_URL; do
         # Commande curl en une seule ligne pour éviter les erreurs de continuation
         STATUS=$(curl -s -o /dev/null -w "%{http_code}" --proxy "$PROXY" --connect-timeout 10 --max-time 20 -I -L "$FULL_URL" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36")
         CURL_EXIT=$?
-        if [[ $CURL_EXIT -eq 0 && "$STATUS" != "000" && -n "$STATUS" && $MAX_PER_IP -ne 2 ]]; then
+        if [[ $CURL_EXIT -eq 0 && "$STATUS" != "000" && -n "$STATUS" && "$STATUS" != "403" ]]; then
             ((COUNT++))
             PERCENT=$((COUNT * 100 / TOTAL))
             printf "\r[*] Progression : %d/%d (%d%%) | Testé : %s " "$COUNT" "$TOTAL" "$PERCENT" "$(basename "$FULL_URL")"
             if [[ "$STATUS" != "404" ]]; then
-                echo -e "\n[+] TROUVÉ → $FULL_URL → HTTP $STATUS"
+            	GREEN='\033[0;32m'
+            	NC='\033[0m'
+
+                echo -e "\n${GREEN}[+] TROUVÉ → $FULL_URL → HTTP $STATUS${NC}"
                
-                if [[ "$STATUS" == "200" || "$STATUS" == "403" ]]; then
-                    let MAX_PER_IP=MAX_PER_IP+1
-                    #SNIPPET=$(curl -s --proxy "$PROXY" --max-time 15 "$FULL_URL" | head -c 200 | tr -d '\0')
-                    #echo " Aperçu : ${SNIPPET:0:150}..."
-                fi
+            
             fi
             break
         else
             echo -e "\n[!] Timeout/erreur sur $FULL_URL (code: $STATUS, exit: $CURL_EXIT) → changement IP"
-            let MAX_PER_IP=0
+            
             change_ip
         fi
     done
